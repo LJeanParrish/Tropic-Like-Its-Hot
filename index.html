@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Equator Equation</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--CSS Stylesheet Link-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Latitude</h1>
+        <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#">Plots</a>
+              </li>
+              <li>
+                <a href="#">Comparison</a>
+              </li>
+              <li>
+                <a href="#">Data</a>
+              </li>
+              
+            </ul>
+          </nav>
+    </header>   
+
+     <main class="container">            
+        <section id="figure">
+            <a href="assets/images/temperature.png">
+            <img id="graph" target="_blank" src="assets/images/temperature.png" alt="Tempurature Map"></a>
+            <h2 id="equator"><strong>The Equator Equation</strong></h2>        
+        <br>
+        <br>
+        <p>The purpose of this project is to understand the impact to weather as you move closer to the equator.
+        To accomplish this analysis, data was pulled from the OpenWeatherMap API to produce a dataset of over 
+        500 cities ranging in latitudes across the planet. 
+        <br>
+        <br>
+        The data was then plotted in Matplotlib to understand correlation of different weather aspects vs. latitude.
+        These aspects included: temperature, cloudiness, wind speed and humidity.  This site provides the source data 
+        and visualizations created as part of the analysis, as well as explanations and descriptions of any trends
+        and correlations witnessed. 
+        </p>
+    </section> 
+    
+    <section id="visualization">
+        <aside id="Visualizations">
+        <h3><strong>Visualizations</strong></h3>
+        <a href="assets/images/temperature.png">
+            <img id="graph2" target="_blank" src="assets/images/temperature.png" alt="Tempurature Graph"></a>
+        <br>
+        <a href="assets/images/humidity.png">
+                <img id="graph3" target="_blank" src="assets/images/Humidity.png" alt="Humidity Graph"></a>
+        <br>
+        <a href="assets/images/wind.png">
+            <img id="graph4" target="_blank" src="assets/images/wind.png" alt="Wind Graph"></a>
+        <br>
+        <a href="assets/images/cloudiness.png">
+            <img id="graph5" target="_blank" src="assets/images/cloudiness.png" alt="Cloudiness Graph"></a>
+     
+        </aside>
+    </section>
+
+
+
+
+
+        <!-- Links to other web visualization pages -->
+        <!--<a href="../../../../1/Activities/04-Stu_MyFirst_HTML/Solved/my-first-bonus.html">My First HTML Bonus</a>-->
+        </aside>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Styling for HTML elements */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background-color: lightseagreen;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #eee;
+    text-align: Left;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display:inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 2px;
+  text-align: right;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+    /* Selecting elements by class */
+.container {
+  width: 1024;
+  margin: 20px;
+}
+
+  #figure,
+  #equator,
+  #graph {
+    float: left;
+    margin: 10px;
+  }
+
+   #figure {
+    position: relative;
+   }
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  #equator{
+    color: black;
+    font-size: 32px;
+  }   
+  
+  #visualization {display: inline-block;}
+  
+  h3 {color: black;
+    font-size: 32px
+    }
+  
+  #graph2 {width: 40%;
+    height: auto;
+  }
+
+  #graph3 {width: 40%;
+    height: auto;
+  }
+  #graph4 {width: 40%;
+    height: auto;
+  }
+  #graph5 {width: 40%;
+    height: auto;
+  }
