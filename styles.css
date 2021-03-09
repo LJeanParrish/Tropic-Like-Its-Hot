@@ -9,21 +9,44 @@ body {
     background: #efeee7;
   }
   
-  header {
-    background-color: lightseagreen;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 36px;
-    color: #eee;
-    text-align: Left;
-  }
+/* Add a  light green background color to the top navigation */
+.topnav {
+  background-color:lightseagreen;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #efeee7;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 26px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color:lightseagreen;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+
+
+
+
+
+
+
+
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
+/* .navbar li {
   display:inline-block;
   padding: 5px;
   margin-right: 5px;
@@ -31,14 +54,30 @@ body {
   cursor: pointer;
   background: #fff;
   border-radius: 2px;
-  text-align: right;
+  text-align: right; */
 }
 
 /* Getting rid of the default link styles here */
-.navbar li a {
+/* .navbar li a {
   color: #000;
   text-decoration: none;
+} */
+
+.right {
+  text-align: right;
+  float: right;
 }
+
+#PlotMenu {
+  margin: 0px;
+  padding: 0px;
+  /* Size properties */
+  padding-top: 5px;
+  /* Font properties */
+  color: #fff;
+  font-size: 80%;
+}
+
 
     /* Selecting elements by class */
 .container {
