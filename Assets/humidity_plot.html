@@ -14,20 +14,45 @@
 </head>
 <body>
     <header>
-        <h1>Latitude</h1>
-    </header>
+        <div class="topnav">
+            <a class="active" href="../index.html">Latitude</a>
+        <div class="topnav-right">
+              <a href="assets/humidity_plot.html">Humidity Plot</a>
+              <a href="assets/temperature_plot.html">Temperature Plot</a>
+              <a href="assets/cloud_plot.html">Cloud Plot</a>
+              <a href="assets/wind_plot.html">Wind Plot</a>
+              <a href="assets/Comparison.html">Comparison</a>
+              <a href="#data">Data</a>
+
+            </div>
+          </div>
+    </header>   
 
     <main>
-
-    <h2 id="humidity"><strong>Humidity Analysis</strong></h2>
     <br>
+    <h2 id="humidity"><strong>Humidity Analysis</strong></h2>
     <a href="images/humidity.png">
         <img id="graph3" target="_blank" src="images/Humidity.png" alt="Humidity Graph"></a>
     <br>
-    <p>INSERT ANALYSIS HERE
+    <p>Humidity is not strongly correlated to nearness to the equator.  Cities further away can be as much if not more humid.  As such, there are other underlying factors which make greater impact to humidity than latitude. 
     </p>
 
-
+    <section id="visualization">
+        <aside id="Visualizations">
+        <h3><strong>Visualizations</strong></h3>
+        <a href="assets/images/temperature.png">
+            <img id="graph2" target="_blank" src="images/temperature.png" alt="Tempurature Graph"></a>
+        <br>
+        <a href="assets/images/humidity.png">
+                <img id="graph3" target="_blank" src="images/Humidity.png" alt="Humidity Graph" class="center"></a>
+        <br>
+        <a href="assets/images/wind.png">
+            <img id="graph4" target="_blank" src="images/wind.png" alt="Wind Graph"></a>
+        <br>
+        <a href="assets/images/cloudiness.png">
+            <img id="graph5" target="_blank" src="images/cloudiness.png" alt="Cloudiness Graph"></a>
+     
+        </aside>
 
 
     </main>        
