@@ -1,73 +1,96 @@
-/* Styling for HTML elements */
+/* Formatting for HTML elements */
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 24px;
-    line-height: 150%;
-    color: #333;
-    background: #fff;
-  }
-  
-/* Add a  light green background color to the top navigation */
-.topnav {
+  padding: 10;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+ }
+
+/* Formatting for the navigation bar*/
+.navbar {
+  max-height: 50px;
   background-color:lightseagreen;
-  overflow: hidden;
+  font-size: 25px; 
+}
+.navigation .navbar-brand {
+  color:#fff;
+  margin-left: 20px;
+  padding: inherit;
+  font-weight: bold;
+  font-size: 25px;
+  background-color:lightseagreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-float: left;
-color: #efeee7;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 26px;
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color:lightseagreen;}
+
+.dropdown-item {color:powderblue;}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: lightseagreen;}
+
+.nav-link:hover {background-color: lightseagreen;}
+
+.navbar-brand:hover {color:powderblue;}
+
+/* Selecting elements by class to format the body of the page*/
+.container {width: 1024;
+  margin: 20px;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color:lightseagreen;
-color: white;
+
+/* Format the headers*/
+#humidity{
+  color:lightseagreen;
+  background-color: #fff;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
 }
 
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-float: right;
+.col-md-8{background-color: #fff;}
+
+/* image formatting*/
+.img-thumbnail{ 
+  width: 40%;
+  height: auto;
+  padding:10px;
+  border: none;
 }
 
-h2{color: lightseagreen;
-    font-size: 32px;
-    background-color: #fff;
+.img-thumbnail {float: left;
+  margin: 10px;
+  position: relative;
+  background-color: #fff;}
+
+/* Paragraph font formatting */
+p{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: large;
+ padding:10px;
+ background-color: #fff;
 }
 
-#graph3 {
-    width: 60%;
-    height: auto;    
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.col-md-12{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+
+/* Media adjustments*/
+@media(max-width:767px){
+  .navbar.bg-light{
+      background-color:lightseagreen;   
   }
 
-#visualization {display: inline-block;}
-  
-  h3 {color:lightseagreen;
-    font-size: 32px
-    }
-  
-  #graph2 {width: 40%;
-    height: auto;
+  .navbar-collapse{
+      background-color: #fff;
   }
-
-  #graph3 {width: 40%;
-    height: auto;
+  .navbar{
+      padding:inherit;
   }
-  #graph4 {width: 40%;
-    height: auto;
-  }
-  #graph5 {width: 40%;
-    height: auto;
-  }
+}

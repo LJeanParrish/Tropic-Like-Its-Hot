@@ -4,58 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humidity Plot</title>
+    <title>temperature_plot</title>
  <!-- Bootstrap CDN -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
  <!--CSS Stylesheet Link-->
  <link rel="stylesheet" href="temp_styles.css">
-
 </head>
+
 <body>
-    <header>
-        <div class="topnav">
-            <a class="active" href="../index.html">Latitude</a>
-        <div class="topnav-right">
-              <a href="assets/humidity_plot.html">Humidity Plot</a>
-              <a href="assets/temperature_plot.html">Temperature Plot</a>
-              <a href="assets/cloud_plot.html">Cloud Plot</a>
-              <a href="assets/wind_plot.html">Wind Plot</a>
-              <a href="assets/Comparison.html">Comparison</a>
-              <a href="#data">Data</a>
+    <!--Set Up the Navigation Bars using Bootstrap-->
+           <div class="navigation">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   <a class="navbar-brand" href="../index.html">Lattitude</a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                       <ul class="navbar-nav ml-auto">
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Plots</a>
+                               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                   <a class="dropdown-item" href="temperature_plot.html">Max Temperature</a>
+                                   <a class="dropdown-item" href="humidity_plot.html">Humidity</a>
+                                   <a class="dropdown-item" href="cloud_plot.html">Cloudiness</a>
+                                   <a class="dropdown-item" href="wind_plot.html">Wind Speed</a>
+                               </div>
+                           </li>
+                           <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+                           <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+                       </ul>
+                   </div>
+               </nav>
+           </div>
 
+<!--Create container to populate the body of content-->     
+<div class="container">      
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <h2 id="temp"><strong>Max Temperature Analysis</strong></h2>
+                <hr>
+                <div class="image"></div>
+                <img id="temps" target="_blank" src="images/Temperature.png" width=100% alt="Temperature Graph">
+                </div>
+                <hr>
+                <p>The data reflects that cities located nearest to the equator do indeed have higher max temperatures 
+                    than those further away as represented by the City Latitude vs. Max Temperature scatterplot. The 
+                    data also reflects that at the time the sample was taken, the Southern Hemisphere was experiencing 
+                     warmer temperature to the Northern Hemisphere particularly at the more extreme latitudes.</p>
             </div>
-          </div>
-    </header>   
-
-    <main>
-    <br>
-    <h2 id="temp"><strong>Max Temperature Analysis</strong></h2>
-    <a href="images/Temperature.png">
-        <img id="graph3" target="_blank" src="images/Temperature.png" alt="Humidity Graph"></a>
-    <br>
-    <p>Cities with temperatures closet to the equator do have higher max temperatures than those further away as represented by the City Latitude vs. Max Temperature scatterplot. 
-    </p>
-
-    <section id="visualization">
-        <aside id="Visualizations">
-        <h3><strong>Visualizations</strong></h3>
-        <a href="assets/images/temperature.png">
-            <img id="graph2" target="_blank" src="images/temperature.png" alt="Tempurature Graph"></a>
-        <br>
-        <a href="assets/images/humidity.png">
-                <img id="graph3" target="_blank" src="images/Humidity.png" alt="Humidity Graph" class="center"></a>
-        <br>
-        <a href="assets/images/wind.png">
-            <img id="graph4" target="_blank" src="images/wind.png" alt="Wind Graph"></a>
-        <br>
-        <a href="assets/images/cloudiness.png">
-            <img id="graph5" target="_blank" src="images/cloudiness.png" alt="Cloudiness Graph"></a>
-     
-        </aside>
-
-
-    </main>        
-    
+        </div>
+ <!--visualization adjustments-->
+    <div class="col-md-4">
+        <div class="col-md-12">
+            <h2 id="temp"><strong>Visualizations</strong></h2>
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <a href="images/temperature.png"><img target="_blank" src="images/temperature.png" width=100% alt="Tempurature Graph"></a>
+                </div>
+                <div class="col-3 col-md-6">
+                    <a href="images/humidity.png"><img target="_blank" src="images/Humidity.png" width=100% alt="Humidity Graph"></a>
+                </div>
+                <div class="col-3 col-md-6">
+                    <a href="images/wind.png"><img target="_blank" src="images/wind.png" width=100% alt="Wind Graph"></a>
+                </div>
+                <div class="col-3 col-md-6">
+                    <a href="images/cloudiness.png"><img target="_blank" src="images/cloudiness.png" width=100% alt="Cloudiness Graph"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
+
+
