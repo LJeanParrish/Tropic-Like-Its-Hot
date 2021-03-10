@@ -1,0 +1,87 @@
+/* Formatting for HTML elements */
+body {
+    padding: 10;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+   }
+  
+  /* Formatting for the navigation bar*/
+  .navbar {
+    max-height: 50px;
+    background-color:lightseagreen;
+    font-size: 25px; 
+  }
+  .navigation .navbar-brand {
+    color:#fff;
+    margin-left: 20px;
+    padding: inherit;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:lightseagreen;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color:lightseagreen;}
+  
+  .dropdown-item {color:powderblue;}
+  
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: lightseagreen;}
+  
+  .nav-link:hover {background-color: lightseagreen;}
+  
+  .navbar-brand:hover {color:powderblue;}
+  
+  /* Selecting elements by class to format the body of the page*/
+  .container {width: 1024;
+    margin: 20px;
+  }
+
+  h2{color:lightseagreen;
+    background-color: #fff;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+  }
+
+  h4{color:black;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+  }
+  
+  .col-md-12{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom:40px;
+  }
+
+  .dataframe{text-align: center;
+    font-size: 20px;
+
+  }
+  
+  /* Media adjustments*/
+  @media(max-width:767px){
+    .navbar.bg-light{
+        background-color:lightseagreen;   
+    }
+  
+    .navbar-collapse{
+        background-color: #fff;
+    }
+    .navbar{
+        padding:inherit;
+    }
+  }
+  .dataframe{text-align: center;
+    font-size: 20px;
+
+
+  
