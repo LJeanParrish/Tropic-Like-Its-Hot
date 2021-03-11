@@ -52,8 +52,6 @@ body {
   padding: 15px;
 }
 
-.col-md-8{background-color: #fff;}
-
 /* image formatting*/
 .img-thumbnail{ 
   width: 40%;
@@ -73,10 +71,6 @@ p{
  font-size: large;
  padding:10px;
  background-color: #fff;
-}
-
-.col-md-4{
-  background-color: #fff;
 }
 
 .col-md-12{
