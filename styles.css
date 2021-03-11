@@ -9,7 +9,7 @@ body {
     background: #efeee7;
    }
 
-/* Formatting for the navigation bar*/
+/* Formatting for the navigation bar */
 .navbar {
     max-height: 50px;
     background-color:lightseagreen;
@@ -27,11 +27,11 @@ body {
 
  .active, .dropdown-menu .dropdown-item:active a:hover {
     background-color:lightseagreen;}
-  
+   */
 .dropdown-item {color:powderblue;}
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: lightseagreen;}
+    background-color: powderblue;}
   
 .nav-link:hover {background-color: lightseagreen;}
   
@@ -41,7 +41,6 @@ body {
 .container {width: 1024;
     margin: 20px;
 }
- 
 
 /* Format the header*/
 #equator{
@@ -74,8 +73,6 @@ p{
    background-color: #fff;
    
 }
-
-
 .col-md-12{
     background-color: #fff;
     padding-top: 20px;
