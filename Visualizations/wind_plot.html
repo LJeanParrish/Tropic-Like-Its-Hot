@@ -9,7 +9,7 @@
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
  <!--CSS Stylesheet Link-->
- <link rel="stylesheet" href="Wind_styles.css">
+ <link rel="stylesheet" href="wind_styles.css">
 </head>
 
 <body>
@@ -32,51 +32,52 @@
                             <a class="dropdown-item" href="wind_plot.html">Wind Speed</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comparison.html">Comparisons</a></li>
                     <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
                 </ul>
             </div>
         </nav>
     </div>             
 
-<!--Create container to populate the body of content-->     
-<div class="container">      
-    <div class="row">
-        <div class="col-md-8">
-            <div class="col-md-12">
-                <h2 id="wind"><strong>Wind Analysis</strong></h2>
-                <hr>
-                <div class="image"></div>
-                <img id="temps" target="_blank" src="images/Wind.png" width=100% alt="Temperature Graph">
-                </div>
-                <hr>
-                <p>There is not significant correlation between wind speed and nearness to the equator.  The majority
+    <!--Create container to populate the body of content-->     
+    <div class="container">      
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h2 id="wind"><strong>Wind Analysis</strong></h2>
+                    <hr>
+                    <div class="image">
+                    <img id="temps" target="_blank" src="../Assets/images/Wind.png" width=100% alt="Wind Graph">
+                    </div>
+                    <hr>
+                    <p>There is not significant correlation between wind speed and nearness to the equator.  The majority
                     of cities sampled reported wind speeds of between 0 to 10 (mph).  Interestingly, cities located 
                     further from the equator, particularly in the northern hemisphere, have greater likelihood of 
                     experiencing greater wind speeds (in excess of 15(mph)).</p>
+                </div>
             </div>
-        </div>
- <!--visualization adjustments-->
-    <div class="col-md-4">
-        <div class="col-md-12">
-            <h2 id="wind"><strong>Visualizations</strong></h2>
-            <div class="row">
-                <div class="col-3 col-md-6">
-                    <a href="temperature_plot.html"><img target="_blank" src="images/temperature.png" width=100% alt="Tempurature Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="humidity_plot.html"><img target="_blank" src="images/Humidity.png" width=100% alt="Humidity Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="wind_plot.html"><img target="_blank" src="images/wind.png" width=100% alt="Wind Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="cloud_plot.html"><img target="_blank" src="images/cloudiness.png" width=100% alt="Cloudiness Graph"></a>
+    <!--visualization adjustments-->
+        <div class="col-md-4">
+            <div class="col-md-12">
+                <h2 id="wind"><strong>Visualizations</strong></h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <a href="temperature_plot.html"><img target="_blank" src="../Assets/images/temperature.png" width=100% alt="Tempurature Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="humidity_plot.html"><img target="_blank" src="../Assets/images/Humidity.png" width=100% alt="Humidity Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="wind_plot.html"><img target="_blank" src="../Assets/images/wind.png" width=100% alt="Wind Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="cloud_plot.html"><img target="_blank" src="../Assets/images/cloudiness.png" width=100% alt="Cloudiness Graph"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
 </body>
 </html>
 

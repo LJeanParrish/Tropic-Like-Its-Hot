@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>temperature_plot</title>
+    <title>humidity_plot</title>
  <!-- Bootstrap CDN -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
  <!--CSS Stylesheet Link-->
- <link rel="stylesheet" href="temp_styles.css">
-</head>
+ <link rel="stylesheet" href="humidity_styles.css">
 
+</head>
 <body>
     <!--Set Up the Navigation Bars using Bootstrap-->
            <div class="navigation">
@@ -32,52 +32,51 @@
                                    <a class="dropdown-item" href="wind_plot.html">Wind Speed</a>
                                </div>
                            </li>
-                           <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+                           <li class="nav-item"><a class="nav-link" href="comparison.html">Comparisons</a></li>
                            <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
                        </ul>
                    </div>
                </nav>
            </div>
 
-<!--Create container to populate the body of content-->     
-<div class="container">      
-    <div class="row">
-        <div class="col-md-8">
+    <!--Create container to populate the body of content-->     
+    <div class="container">      
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h2 id="humidity"><strong>Humidity Analysis</strong></h2>
+                    <hr>
+                    <div class="image">
+                    <img id="humidity" target="_blank" src="../Assets/images/Humidity.png" width=100% alt="Humidity Graph">
+                    </div>
+                    <hr>
+                    <p>Humidity is not strongly correlated to nearness to the equator.  Cities further away can 
+                        be as much if not more humid.  As such, there are other underlying factors which make 
+                        greater impact to humidity than latitude. These factors could include proximity to water
+                        and/or wind patterns.</p>
+                </div>
+            </div>
+        
+    <!--visualization adjustments-->
+        <div class="col-md-4">
             <div class="col-md-12">
-                <h2 id="temp"><strong>Max Temperature Analysis</strong></h2>
-                <hr>
-                <div class="image"></div>
-                <img id="temps" target="_blank" src="images/Temperature.png" width=100% alt="Temperature Graph">
-                </div>
-                <hr>
-                <p>The data reflects that cities located nearest to the equator do indeed have higher max temperatures 
-                    than those further away as represented by the City Latitude vs. Max Temperature scatterplot. The 
-                    data also reflects that at the time the sample was taken, the Southern Hemisphere was experiencing 
-                     warmer temperature to the Northern Hemisphere particularly at the more extreme latitudes.</p>
-            </div>
-        </div>
- <!--visualization adjustments-->
-    <div class="col-md-4">
-        <div class="col-md-12">
-            <h2 id="temp"><strong>Visualizations</strong></h2>
-            <div class="row">
-                <div class="col-3 col-md-6">
-                    <a href="temperature_plot.html"><img target="_blank" src="images/temperature.png" width=100% alt="Tempurature Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="humidity_plot.html"><img target="_blank" src="images/Humidity.png" width=100% alt="Humidity Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="wind_plot.html"><img target="_blank" src="images/wind.png" width=100% alt="Wind Graph"></a>
-                </div>
-                <div class="col-3 col-md-6">
-                    <a href="cloud_plot.html"><img target="_blank" src="images/cloudiness.png" width=100% alt="Cloudiness Graph"></a>
+                <h2 id="humidity"><strong>Visualizations</strong></h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <a href="temperature_plot.html"><img target="_blank" src="../Assets/images/temperature.png" width=100% alt="Tempurature Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="humidity_plot.html"><img target="_blank" src="../Assets/images/Humidity.png" width=100% alt="Humidity Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="wind_plot.html"><img target="_blank" src="../Assets/images/Humidity.png" width=100% alt="Wind Graph"></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="cloud_plot.html"><img target="_blank" src="../Assets/images/cloudiness.png" width=100% alt="Cloudiness Graph"></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </body>
 </html>
-
-

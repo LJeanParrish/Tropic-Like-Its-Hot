@@ -44,7 +44,7 @@ body {
 
 
 /* Format the headers*/
-#wind{
+#humidity{
   color:lightseagreen;
   background-color: #fff;
   font-size: 32px;
@@ -75,6 +75,10 @@ p{
  background-color: #fff;
 }
 
+.col-md-4{
+  background-color: #fff;
+}
+
 .col-md-12{
   background-color: #fff;
   padding-top: 20px;
@@ -94,3 +98,4 @@ p{
       padding:inherit;
   }
 }
+
