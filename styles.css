@@ -86,9 +86,16 @@ p{
     }
 
     .navbar-collapse{
-        background-color: #fff;
+        background-color:powderblue;
     }
-    .navbar{
+    /* .navbar{
         padding:inherit;
-    }
+    } */
+
+
+/* additional dropdown formatting */
+.navbar-collapse{
+    display: block;
+    font-size: smaller;
+    float: right;
 }
