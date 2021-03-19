@@ -1,27 +1,22 @@
 # Tropic Like It's Hot
 
+![Images/tropic-like-hot.jpeg](Images/tropic-like-hot.jpeg)
+
 ## Background
 
 Tropic Like It's Hot capture weather data from approximately 500 cities at different lattitudes from the equator.  The objective was to create a dashboard reflecting analysis I performed on different weather phenomena and develop a website using HTML, CSS, and Bootstrap.
-
-![Images/landingResize.png](Images/tropic-like-hot.jpeg)
-
-## Latitude - Latitude Analysis Dashboard with Attitude
-
-I created a visualization dashboard website and plotted data.  
 
 Individual pages were created for each plot and links created to faciliatat navigation between those plots. These pages contained the visualizations and their corresponding analysis.  I also created a landing page, a comparison page to reflect all of the plots, and another page showing the underlying data.
 
 ### Website Requirements
 
-For reference, see the ["Screenshots" section](#screenshots) below.
 
-The website must consist of 7 pages total, including:
+The website consisted of 7 pages total, including:
 
-* A [landing page](#landing-page) containing:
+* A Landing Page containing:
   * An explanation of the project.
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four [visualization pages](#visualization-pages), each with:
+  * Links to each visualizations page. A sidebar containing preview images of each plot, and clicking on an image navigates to that visualization.
+* Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
