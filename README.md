@@ -4,10 +4,9 @@
 
 ## Background
 
-Tropic Like It's Hot captured weather data from approximately 500 cities at different lattitudes from the equator.  The objective was to create a dashboard reflecting my analysis on different weather phenomena and develop a website using HTML, CSS, and Bootstrap.
+Tropic Like It's Hot captured weather data from approximately 500 cities at different latitudes from the equator.  The objective was to create a dashboard reflecting my analysis on different weather phenomena and develop a website using HTML, CSS, and Bootstrap.
 
-Individual pages were created for each plot and links created to faciliatat navigation between those plots. These pages contained the visualizations and their corresponding analysis.  I also created a landing page, a comparison page to reflect all of the plots, and another page showing the underlying data.
-
+Individual pages were created for each plot and links were created to facilitate navigation between those plots. The plot pages contained the visualizations and their corresponding analysis.  I also created a landing page, a comparison page, and a page displaying the underlying data.
 ### Website Requirements
 
 
@@ -16,7 +15,7 @@ The website included a total of 7 pages with following schematics:
 * A Landing Page containing:
   * An explanation of the project.
   * Links to each visualizations page. 
-  * A sidebar containing preview images of each plot.  Clicking on an image navigateed to that visualization.
+  * A sidebar containing preview images of each plot.  Clicking on an image navigated to that visualization.
 * Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization for the selected comparison.
@@ -28,7 +27,7 @@ The website included a total of 7 pages with following schematics:
 * A Data page that:
   * Displayed a responsive table containing the data used for the visualizations.
     * The table utilized Bootstrap components. 
-    * The data levereaged an exported `.csv` file that was then converted to HTML using Pandas.
+    * The data leveraged an exported `.csv` file that was then converted to HTML using Pandas.
 * The website contained a navigation menu that:
   * Had the name of the site on the left allowing users to return to the landing page from any page.
   * Contained a dropdown menu on the right of the navbar that provided links to each visualization page.
