@@ -1,6 +1,6 @@
 # Tropic Like It's Hot
 
-![Images/tropic-like-hot.jpeg](Images/tropic-like-hot.jpeg)
+![Images/tropic-like-hot.jpg](Images/tropic-like-hot.jpg)
 
 ## Background
 
