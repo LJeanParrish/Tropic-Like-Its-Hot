@@ -7,6 +7,7 @@
 Tropic Like It's Hot captured weather data from approximately 500 cities at different latitudes from the equator.  The objective was to create a dashboard reflecting my analysis on different weather phenomena and develop a website using HTML, CSS, and Bootstrap.
 
 Individual pages were created for each plot and links were created to facilitate navigation between those plots. The plot pages contained the visualizations and their corresponding analysis.  I also created a landing page, a comparison page, and a page displaying the underlying data.
+
 ### Website Requirements
 
 

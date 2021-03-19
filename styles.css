@@ -9,6 +9,10 @@ body {
     background: #efeee7;
    }
 
+#blank{background-color: #efeee7;
+margin: 5px;
+padding:5px}
+
    /* Format html header statements*/
 h2{
     color:lightseagreen;
@@ -48,7 +52,8 @@ h3{color:lightseagreen;
 .navigation .navbar-brand {
     color:#fff;
     margin-left: 20px;
-    padding: inherit;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 35px;
     background-color:lightseagreen;
